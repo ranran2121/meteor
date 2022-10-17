@@ -159,7 +159,7 @@ Object.assign(RunLog.prototype, {
       self.consecutiveRestartMessages = 1;
     }
 
-    var message = "=> Meteor server restarted";
+    var message = "=> Meteor server restarted on port http://127.0.0.1:3400";
     if (self.consecutiveRestartMessages > 1) {
       message += " (x" + self.consecutiveRestartMessages + ")";
     }
